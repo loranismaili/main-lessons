@@ -1,0 +1,15 @@
+
+nav ul{
+    list-style-type: none;
+    padding: 20px;
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+ul{
+    background-color: skyblue;
+    color: white;
+    padding: 20px;
+    width: fit-content;
+}
