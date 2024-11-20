@@ -1,0 +1,43 @@
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+article > p{
+    background-color: red;
+}
+article ~ p{
+    background: purple;
+    color: white;
+    padding: 20px;
+}
+article + p{
+    background-color: orange;
+}
+h3:first-child{
+    background-color: green;
+    color: white;
+}
+span:first-of-type{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+form{
+    margin-top: 20px;
+}
+input:invalid{
+    border: 2px red solid;
+}
+input:valid{
+    border: 20px green solid;
+}
+/*
+p::first-line{
+    color: blue;
+    font-size: 40px;
+}
+*/
+div{
+    opacity: 0.5;
+}
