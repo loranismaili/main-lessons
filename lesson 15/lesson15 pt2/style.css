@@ -106,7 +106,7 @@ li a:hover:not(.active){
     background-color: #4caf50;
     color: white;
 }
-#vertical-menu li a.active{
+#vertical-menu li a:hover:not(.active){
     background-color: #555;
     color: white;
 }
